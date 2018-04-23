@@ -1,0 +1,63 @@
+body {
+  background: url("webpage_background.jpg") no-repeat 50% 50% fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  color: #CECECE;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.name {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 15px;
+}
+
+.extra {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.btn {
+  color: #CECECE;
+}
+
+.btn.btn-default:hover {
+  color: #FFFFFF;
+}
+
+.btn.btn-default {
+  margin-top: 15px;
+  color: #CECECE;
+  background-color: Transparent;
+}
+
+.footer-copyright {
+  color: #CECECE;
+  right:25%;
+  left:50%;
+  margin-left:-97px;
+  position: fixed;
+  bottom: 0;
+}
+
+.navbar {
+  background-color: Transparent;
+  border-color: Transparent;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #CECECE;
+}
